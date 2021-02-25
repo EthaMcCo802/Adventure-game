@@ -46,6 +46,8 @@ namespace Adventure_game
             this.textLabel.Name = "textLabel";
             this.textLabel.Size = new System.Drawing.Size(802, 113);
             this.textLabel.TabIndex = 0;
+            this.textLabel.Text = "You wake up to the sound of your alarm, you roll over and check the time, it\'s 7:" +
+    "30 in the morning.";
             this.textLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // choiceALabel
@@ -56,6 +58,7 @@ namespace Adventure_game
             this.choiceALabel.Name = "choiceALabel";
             this.choiceALabel.Size = new System.Drawing.Size(549, 27);
             this.choiceALabel.TabIndex = 1;
+            this.choiceALabel.Text = "Get out of bed";
             // 
             // buttonLabel
             // 
@@ -66,7 +69,7 @@ namespace Adventure_game
             this.buttonLabel.Name = "buttonLabel";
             this.buttonLabel.Size = new System.Drawing.Size(57, 27);
             this.buttonLabel.TabIndex = 2;
-            this.buttonLabel.Text = "A";
+            this.buttonLabel.Text = "B";
             this.buttonLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button2Label
@@ -78,7 +81,7 @@ namespace Adventure_game
             this.button2Label.Name = "button2Label";
             this.button2Label.Size = new System.Drawing.Size(57, 27);
             this.button2Label.TabIndex = 4;
-            this.button2Label.Text = "B";
+            this.button2Label.Text = "M";
             this.button2Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // choiceBLabel
@@ -89,6 +92,7 @@ namespace Adventure_game
             this.choiceBLabel.Name = "choiceBLabel";
             this.choiceBLabel.Size = new System.Drawing.Size(549, 27);
             this.choiceBLabel.TabIndex = 3;
+            this.choiceBLabel.Text = "Go back to sleep";
             // 
             // button3Label
             // 
@@ -99,7 +103,7 @@ namespace Adventure_game
             this.button3Label.Name = "button3Label";
             this.button3Label.Size = new System.Drawing.Size(57, 27);
             this.button3Label.TabIndex = 6;
-            this.button3Label.Text = "C";
+            this.button3Label.Text = "N";
             this.button3Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // choiceCLabel

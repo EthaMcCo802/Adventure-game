@@ -13,40 +13,169 @@ namespace Adventure_game
     public partial class Form1 : Form
     {
         int scene = 1;
-        Random randGen = new Random();
+        
+
+        
+
         public Form1()
         {
             InitializeComponent();
         }
-
+        
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.A)
+            if (e.KeyCode == Keys.B)
             {
                 if (scene == 1) { scene = 2; }
                 else if (scene == 2) { scene = 3; }
                 else if (scene == 3) { scene = 20; }
-                else if (scene == 20) ;
-
-                int chance = randGen.Next(1, 11);
-                if (chance >= 5)
+                else if (scene == 4) { scene = 2; }
+                else if (scene == 5) { scene = 41; }
+                else if (scene == 6) { scene = 7; }
+                else if (scene == 7) 
                 {
-                    scene = 28;
-                }
-                else
-                {
-                    scene = 27;
-                }
+                    Random ranGen = new Random();
+                    int value = ranGen.Next(1, 11);
 
+                    if (value < 5) { scene = 17; }
+                    else { scene = 16; }
+                }
+                else if (scene == 8) { scene = 12; }
+                else if (scene == 9) { scene = 10; }
+                else if (scene == 10) { scene = 41; }
+                else if (scene == 11) { scene = 41; }
+                else if (scene == 12) { scene = 34; }
+                else if (scene == 13) { scene = 41; }
+                else if (scene == 14) { scene = 9; }
+                else if (scene == 15) { scene = 41; }
+                else if (scene == 16) { scene = 41; }
+                else if (scene == 17) { scene = 41; }
+                else if (scene == 18) { scene = 19; }
+                else if (scene == 19) { scene = 41; }
+                else if (scene == 20) 
+                {
+                    Random ranGen = new Random();
+                    int value = ranGen.Next(1, 11);
+
+                    if (value < 6) { scene = 28; }
+                    else { scene = 27; }
+                }
+                else if (scene == 21) { scene = 23; }
+                else if (scene == 22) { scene = 18; }
+                else if (scene == 23) { scene = 23; }
+                else if (scene == 24) { scene = 26; }
+                else if (scene == 25) { scene = 41; }
+                else if (scene == 26) { scene = 18; }
+                else if (scene == 27) { scene = 41; }
                 else if (scene == 28) { scene = 29; }
+                else if (scene == 29) { scene = 41; }
+                else if (scene == 30) { scene = 18; }
+                else if (scene == 31) { scene = 40; }
+                else if (scene == 32) { scene = 34; }
+                else if (scene == 33) { scene = 35; }
+                else if (scene == 34) { scene = 36; }
+                else if (scene == 35) { scene = 38; }
+                else if (scene == 36) { scene = 41; }
+                else if (scene == 37) { scene = 41; }
+                else if (scene == 38) { scene = 41; }
+                else if (scene == 39) { scene = 41; }
+                else if (scene == 40) { scene = 41; }
+                else if (scene == 41) { scene = 1; }
             }
-            else if (e.KeyCode == Keys.S)
+            else if (e.KeyCode == Keys.M)
             {
+                if (scene == 1) { scene = 4; }
+                else if (scene == 2) { scene = 32; }
+                else if (scene == 3) { scene = 6; }
+                else if (scene == 4) { scene = 5; }
+                else if (scene == 5) { }
+                else if (scene == 6) { scene = 9; }
+                else if (scene == 7) { scene = 14; }
+                else if (scene == 8) { scene = 12; }
+                else if (scene == 9) { scene = 11; }
+                else if (scene == 10) { }
+                else if (scene == 11) { }
+                else if (scene == 12) { scene = 33; }
+                else if (scene == 13) { }
+                else if (scene == 14) { scene = 15; }
+                else if (scene == 15) { }
+                else if (scene == 16) { }
+                else if (scene == 17) { }
+                else if (scene == 18) { scene = 6; }
+                else if (scene == 19) { }
+                else if (scene == 20) { scene = 21; }
+                else if (scene == 21) { scene = 22; }
+                else if (scene == 22) { scene = 6; }
+                else if (scene == 23) { }
+                else if (scene == 24) { scene = 25; }
+                else if (scene == 25) { }
+                else if (scene == 26) { scene = 6; }
+                else if (scene == 27) { }
+                else if (scene == 28) { scene = 30; }
+                else if (scene == 29) { }
+                else if (scene == 30) { scene = 31; }
+                else if (scene == 31) { }
+                else if (scene == 32) { scene = 33; }
+                else if (scene == 33) { scene = 35; }
+                else if (scene == 34) { scene = 33; }
+                else if (scene == 35) 
+                {
+                    Random ranGen = new Random();
+                    int value = ranGen.Next(1, 11);
 
+                    if (value < 5) { scene = 37; }
+                    else { scene = 38; }
+                }
+                else if (scene == 36) { }
+                else if (scene == 37) { }
+                else if (scene == 38) { }
+                else if (scene == 39) { }
+                else if (scene == 40) { }
+                else if (scene == 41) { this.Close(); }
             }
-            else if (e.KeyCode == Keys.D)
+            else if (e.KeyCode == Keys.N)
             {
-
+                if (scene == 1) { }
+                else if (scene == 2) { }
+                else if (scene == 3) { scene = 18; }
+                else if (scene == 4) { }
+                else if (scene == 5) { }
+                else if (scene == 6) { scene = 8; }
+                else if (scene == 7) { }
+                else if (scene == 8) { }
+                else if (scene == 9) { }
+                else if (scene == 10) { }
+                else if (scene == 11) { }
+                else if (scene == 12) { }
+                else if (scene == 13) { }
+                else if (scene == 14) { scene = 8; }
+                else if (scene == 15) { }
+                else if (scene == 16) { }
+                else if (scene == 17) { }
+                else if (scene == 18) { }
+                else if (scene == 19) { }
+                else if (scene == 20) { scene = 24; }
+                else if (scene == 21) { }
+                else if (scene == 22) { }
+                else if (scene == 23) { }
+                else if (scene == 24) { }
+                else if (scene == 25) { }
+                else if (scene == 26) { }
+                else if (scene == 27) { }
+                else if (scene == 28) { }
+                else if (scene == 29) { }
+                else if (scene == 30) { }
+                else if (scene == 31) { }
+                else if (scene == 32) { }
+                else if (scene == 33) { }
+                else if (scene == 34) { }
+                else if (scene == 35) { }
+                else if (scene == 36) { }
+                else if (scene == 37) { }
+                else if (scene == 38) { }
+                else if (scene == 39) { }
+                else if (scene == 40) { }
+                else if (scene == 41) { }
             }
 
             switch (scene)
@@ -59,17 +188,17 @@ namespace Adventure_game
                     Refresh();
                     break;
                 case 2:
-                    textLabel.Text = "You get out of bed.";
+                    textLabel.Text = "You get out of bed. The sun is shining through the windows and it looks like it's going to be a hot day.";
                     choiceALabel.Text = "Get dressed";
                     choiceBLabel.Text = "Go outside";
                     choiceCLabel.Text = "";
                     Refresh();
                     break;
                 case 3:
-                    textLabel.Text = "You get dressed.";
+                    textLabel.Text = "You get dressed in whatever clothes you can find in your closet, then head downstairs.";
                     choiceALabel.Text = "Eat breakfast";
-                    choiceBLabel.Text = "Watch tv";
-                    choiceCLabel.Text = "Go outside";
+                    choiceBLabel.Text = "Go outside";
+                    choiceCLabel.Text = "Watch tv";
                     Refresh();
                     break;
                 case 4:
@@ -81,7 +210,7 @@ namespace Adventure_game
                     break;
                 case 5:
                     textLabel.Text = "You decide to waste your life away in bed. Game over.";
-                    choiceALabel.Text = "";
+                    choiceALabel.Text = "Continue";
                     choiceBLabel.Text = "";
                     choiceCLabel.Text = "";
                     Refresh();
@@ -116,28 +245,28 @@ namespace Adventure_game
                     break;
                 case 10:
                     textLabel.Text = "You head inside and spend the rest of the day hanging out with your friend. At the end of the day you say your farewells and you retire back home. Game over.";
-                    choiceALabel.Text = "";
+                    choiceALabel.Text = "Continue";
                     choiceBLabel.Text = "";
                     choiceCLabel.Text = "";
                     Refresh();
                     break;
                 case 11:
                     textLabel.Text = "You run away quickly from your friend and head home. You lay in bed that night thinking about how lonely you are and cry yourself to sleep. Game over.";
-                    choiceALabel.Text = "";
+                    choiceALabel.Text = "Continue";
                     choiceBLabel.Text = "";
                     choiceCLabel.Text = "";
                     Refresh();
                     break;
                 case 12:
                     textLabel.Text = "You get to the checkout, but it turns out you don't have enough money. They lady at the checkout calls the police.";
-                    choiceALabel.Text = "";
-                    choiceBLabel.Text = "";
+                    choiceALabel.Text = "Run away";
+                    choiceBLabel.Text = "Stand still";
                     choiceCLabel.Text = "";
                     Refresh();
                     break;
                 case 13:
                     textLabel.Text = "You get to the checkout and pay with what little money you have. You head home and eat your chips, repressing the fact that you are in financial debt and may become homeless soon. Game over..";
-                    choiceALabel.Text = "";
+                    choiceALabel.Text = "Continue";
                     choiceBLabel.Text = "";
                     choiceCLabel.Text = "";
                     Refresh();
@@ -151,41 +280,41 @@ namespace Adventure_game
                     break;
                 case 15:
                     textLabel.Text = "You head home and decide to call it a day. Once you hit the bed you go to sleep instantly. Game over.";
-                    choiceALabel.Text = "";
+                    choiceALabel.Text = "Continue";
                     choiceBLabel.Text = "";
                     choiceCLabel.Text = "";
                     Refresh();
                     break;
                 case 16:
                     textLabel.Text = "They decide you aren't a good fit for their company. After having your ego destroyed you go home and cry yourself to sleep. Game over.";
-                    choiceALabel.Text = "";
+                    choiceALabel.Text = "Continue";
                     choiceBLabel.Text = "";
                     choiceCLabel.Text = "";
                     Refresh();
                     break;
                 case 17:
                     textLabel.Text = "You got the job! After working with the company for some time they decide you are a good fit for CEO. You become the richest and most successful person on earth. Game over..";
-                    choiceALabel.Text = "";
+                    choiceALabel.Text = "Continue";
                     choiceBLabel.Text = "";
                     choiceCLabel.Text = "";
                     Refresh();
                     break;
                 case 18:
-                    textLabel.Text = "You watch some tv, an hour or so passes and you start to get a bad headache.";
+                    textLabel.Text = "You watch some TV, an hour or so passes and you start to get a bad headache.";
                     choiceALabel.Text = "Keep watching tv";
                     choiceBLabel.Text = "Go outside";
                     choiceCLabel.Text = "";
                     Refresh();
                     break;
                 case 19:
-                    textLabel.Text = "You continue to watch tv. After some time your headache becomes worse, you collapse to the floor and your vision begins fade to darkness. Game over.";
-                    choiceALabel.Text = "";
+                    textLabel.Text = "You continue to watch TV. After some time your headache becomes worse, you collapse to the floor and your vision begins to fade to darkness. Game over.";
+                    choiceALabel.Text = "Continue";
                     choiceBLabel.Text = "";
                     choiceCLabel.Text = "";
                     Refresh();
                     break;
                 case 20:
-                    textLabel.Text = "What do you want to eat for breakfast?";
+                    textLabel.Text = "You decide to make some breakfast, what do you want to eat?";
                     choiceALabel.Text = "Bacon and eggs";
                     choiceBLabel.Text = "Cereal";
                     choiceCLabel.Text = "Toast with peanut butter";
@@ -207,7 +336,7 @@ namespace Adventure_game
                     break;
                 case 23:
                     textLabel.Text = "You run outside and start giving people samples of the toast. Soon people in town are wanting more and say they are willing to pay large sums of money to get it. You decide to open your own shop and sell these marvels. You make millions and are soon know as the peanut butter toast master. Game over.";
-                    choiceALabel.Text = "";
+                    choiceALabel.Text = "Continue";
                     choiceBLabel.Text = "";
                     choiceCLabel.Text = "";
                     Refresh();
@@ -221,7 +350,7 @@ namespace Adventure_game
                     break;
                 case 25:
                     textLabel.Text = "You pour the milk first. You take one bite of the cereal and choke and die. That's what you get for pouring milk first.";
-                    choiceALabel.Text = "";
+                    choiceALabel.Text = "Continue";
                     choiceBLabel.Text = "";
                     choiceCLabel.Text = "";
                     Refresh();
@@ -235,7 +364,7 @@ namespace Adventure_game
                     break;
                 case 27:
                     textLabel.Text = "You make bacon and eggs, but due to your inability to cook you burn your house down with you inside. Game over.";
-                    choiceALabel.Text = "";
+                    choiceALabel.Text = "Continue";
                     choiceBLabel.Text = "";
                     choiceCLabel.Text = "";
                     Refresh();
@@ -249,7 +378,7 @@ namespace Adventure_game
                     break;
                 case 29:
                     textLabel.Text = "You eat the bacon and eggs and die of food poisoning. Game over.";
-                    choiceALabel.Text = "";
+                    choiceALabel.Text = "Continue";
                     choiceBLabel.Text = "";
                     choiceCLabel.Text = "";
                     Refresh();
@@ -298,44 +427,52 @@ namespace Adventure_game
                     break;
                 case 36:
                     textLabel.Text = "The cops tazzes you and puts you in handcuffs. He throws you in the back of his car and you are taken to prison for running away from a cop. Game over.";
-                    choiceALabel.Text = "";
+                    choiceALabel.Text = "Continue";
                     choiceBLabel.Text = "";
                     choiceCLabel.Text = "";
                     Refresh();
                     break;
                 case 37:
                     textLabel.Text = "You are found not guilty and are let go. You head home and are thankful you are not spending the night in prison. Game over.";
-                    choiceALabel.Text = "";
+                    choiceALabel.Text = "Continue";
                     choiceBLabel.Text = "";
                     choiceCLabel.Text = "";
                     Refresh();
                     break;
                 case 38:
                     textLabel.Text = "You are found guilty and are sentenced to prison for life. Game over.";
-                    choiceALabel.Text = "";
+                    choiceALabel.Text = "Continue";
                     choiceBLabel.Text = "";
                     choiceCLabel.Text = "";
                     Refresh();
                     break;
                 case 39:
                     textLabel.Text = "You go outside, part way through the day you feel a sharp pain in your stomach. You collapse to the floor and your vision begins to go dark. You have starved to death. Game over.";
-                    choiceALabel.Text = "";
+                    choiceALabel.Text = "Continue";
                     choiceBLabel.Text = "";
                     choiceCLabel.Text = "";
                     Refresh();
                     break;
                 case 40:
                     textLabel.Text = "You turn on your favorite show, but part way through you feel a sharp pain in your stomach. You collapse to the floor and everything goes dark. You have starved to death. Game over.";
-                    choiceALabel.Text = "";
+                    choiceALabel.Text = "Continue";
                     choiceBLabel.Text = "";
+                    choiceCLabel.Text = "";
+                    Refresh();
+                    break;
+                case 41:
+                    textLabel.Text = "Would you like to try again?";
+                    choiceALabel.Text = "Yes";
+                    choiceBLabel.Text = "No";
                     choiceCLabel.Text = "";
                     Refresh();
                     break;
 
 
 
-
             }
         }
+
+     
     }
 }
