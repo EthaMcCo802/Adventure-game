@@ -23,9 +23,22 @@ namespace Adventure_game
         {
             if (e.KeyCode == Keys.A)
             {
-                if (scene == 1) (scene == 2)
-                else if (scene == 2) (scene == 3)
-                else if (scene == 3)
+                if (scene == 1) { scene = 2; }
+                else if (scene == 2) { scene = 3; }
+                else if (scene == 3) { scene = 20; }
+                else if (scene == 20) ;
+
+                int chance = randGen.Next(1, 11);
+                if (chance >= 5)
+                {
+                    scene = 28;
+                }
+                else
+                {
+                    scene = 27;
+                }
+
+                else if (scene == 28) { scene = 29; }
             }
             else if (e.KeyCode == Keys.S)
             {
