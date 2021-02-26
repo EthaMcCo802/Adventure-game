@@ -14,7 +14,11 @@ namespace Adventure_game
     public partial class Form1 : Form
     {
         int scene = 0;
-        
+
+        SoundPlayer cash = new SoundPlayer(Properties.Resources.Cash);
+        SoundPlayer door = new SoundPlayer(Properties.Resources.Door);
+        SoundPlayer death = new SoundPlayer(Properties.Resources.Death);
+        SoundPlayer silence = new SoundPlayer(Properties.Resources.Silence);
         public Form1()
         {
             InitializeComponent();
@@ -69,7 +73,7 @@ namespace Adventure_game
                 else if (scene == 28) { scene = 29; }
                 else if (scene == 29) { scene = 41; }
                 else if (scene == 30) { scene = 18; }
-                else if (scene == 31) { scene = 40; }
+                else if (scene == 31) { scene = 39; }
                 else if (scene == 32) { scene = 34; }
                 else if (scene == 33) { scene = 35; }
                 else if (scene == 34) { scene = 36; }
@@ -114,7 +118,7 @@ namespace Adventure_game
                 else if (scene == 28) { scene = 30; }
                 else if (scene == 29) { }
                 else if (scene == 30) { scene = 31; }
-                else if (scene == 31) { }
+                else if (scene == 31) { scene = 40; }
                 else if (scene == 32) { scene = 33; }
                 else if (scene == 33) { scene = 35; }
                 else if (scene == 34) { scene = 33; }
@@ -201,6 +205,7 @@ namespace Adventure_game
                     choiceALabel.Text = "Get dressed";
                     choiceBLabel.Text = "Go outside";
                     choiceCLabel.Text = "";
+                    silence.Play();
                     Refresh();
                     break;
                 case 3:
@@ -217,6 +222,7 @@ namespace Adventure_game
                     choiceALabel.Text = "Get up";
                     choiceBLabel.Text = "Stay in bed";
                     choiceCLabel.Text = "";
+                    silence.Play();
                     Refresh();
                     break;
                 case 5:
@@ -231,9 +237,8 @@ namespace Adventure_game
                 case 6:
                     textLabel.Text = "You head outside, what do you want to do?";
                     choiceALabel.Text = "Get a job";
-                    choiceBLabel.Text = "Go to the store";
-                    choiceCLabel.Text = "Visit a friend";
-                    SoundPlayer door = new SoundPlayer(Properties.Resources.Door);
+                    choiceBLabel.Text = "Visit a friend";
+                    choiceCLabel.Text = "Go to the store";
                     door.Play();
                     Refresh();
                     break;
@@ -242,6 +247,7 @@ namespace Adventure_game
                     choiceALabel.Text = "Yes";
                     choiceBLabel.Text = "No";
                     choiceCLabel.Text = "";
+                    silence.Play();
                     Refresh();
                     break;
                 case 8:
@@ -249,6 +255,8 @@ namespace Adventure_game
                     choiceALabel.Text = "Pasta 15$";
                     choiceBLabel.Text = "Chicken 28$";
                     choiceCLabel.Text = "Chips $5";
+                    SoundPlayer store = new SoundPlayer(Properties.Resources.Store);
+                    store.Play();
                     Refresh();
                     break;
                 case 9:
@@ -265,6 +273,8 @@ namespace Adventure_game
                     choiceALabel.Text = "Continue";
                     choiceBLabel.Text = "";
                     choiceCLabel.Text = "";
+                    SoundPlayer hurray = new SoundPlayer(Properties.Resources.Hurray);
+                    hurray.Play();
                     Refresh();
                     break;
                 case 11:
@@ -281,20 +291,23 @@ namespace Adventure_game
                     choiceALabel.Text = "Run away";
                     choiceBLabel.Text = "Stand still";
                     choiceCLabel.Text = "";
+                    silence.Play();
                     Refresh();
                     break;
                 case 13:
                     textLabel.Text = "You get to the checkout and pay with what little money you have. You head home and eat your chips, repressing the fact that you are in financial debt and may become homeless soon. Game over..";
                     choiceALabel.Text = "Continue";
                     choiceBLabel.Text = "";
-                    choiceCLabel.Text = "";
+                    choiceCLabel.Text = "";                  
+                    cash.Play();
                     Refresh();
                     break;
                 case 14:
                     textLabel.Text = "They are confused and quite frustrated that you have wasted their time. They kick you out. What will you do now?";
                     choiceALabel.Text = "Go home";
-                    choiceBLabel.Text = "Go to the store";
-                    choiceCLabel.Text = "Visit a friend";
+                    choiceBLabel.Text = "Visit a friend";
+                    choiceCLabel.Text = "Go to the store";
+                    silence.Play();
                     Refresh();
                     break;
                 case 15:
@@ -302,6 +315,7 @@ namespace Adventure_game
                     choiceALabel.Text = "Continue";
                     choiceBLabel.Text = "";
                     choiceCLabel.Text = "";
+                    silence.Play();
                     Refresh();
                     break;
                 case 16:
@@ -317,8 +331,7 @@ namespace Adventure_game
                     textLabel.Text = "You got the job! After working with the company for some time they decide you are a good fit for CEO. You become the richest and most successful person on earth. Game over..";
                     choiceALabel.Text = "Continue";
                     choiceBLabel.Text = "";
-                    choiceCLabel.Text = "";
-                    SoundPlayer cash = new SoundPlayer(Properties.Resources.Cash);
+                    choiceCLabel.Text = "";                   
                     cash.Play();
                     Refresh();
                     break;
@@ -327,6 +340,7 @@ namespace Adventure_game
                     choiceALabel.Text = "Keep watching tv";
                     choiceBLabel.Text = "Go outside";
                     choiceCLabel.Text = "";
+                    silence.Play();
                     Refresh();
                     break;
                 case 19:
@@ -341,8 +355,9 @@ namespace Adventure_game
                 case 20:
                     textLabel.Text = "You decide to make some breakfast, what do you want to eat?";
                     choiceALabel.Text = "Bacon and eggs";
-                    choiceBLabel.Text = "Cereal";
-                    choiceCLabel.Text = "Toast with peanut butter";
+                    choiceBLabel.Text = "Toast with peanut butter";
+                    choiceCLabel.Text = "Cereal";
+                    silence.Play();
                     Refresh();
                     break;
                 case 21:
@@ -350,6 +365,8 @@ namespace Adventure_game
                     choiceALabel.Text = "Tell the world";
                     choiceBLabel.Text = "Keep it a secret";
                     choiceCLabel.Text = "";
+                    SoundPlayer toaster = new SoundPlayer(Properties.Resources.Toaster);
+                    toaster.Play();
                     Refresh();
                     break;
                 case 22:
@@ -357,15 +374,15 @@ namespace Adventure_game
                     choiceALabel.Text = "Go outside";
                     choiceBLabel.Text = "Watch tv";
                     choiceCLabel.Text = "";
+                    silence.Play();
                     Refresh();
                     break;
                 case 23:
                     textLabel.Text = "You run outside and start giving people samples of the toast. Soon people in town are wanting more and say they are willing to pay large sums of money to get it. You decide to open your own shop and sell these marvels. You make millions and are soon know as the peanut butter toast master. Game over.";
                     choiceALabel.Text = "Continue";
                     choiceBLabel.Text = "";
-                    choiceCLabel.Text = "";
-                    SoundPlayer Cash = new SoundPlayer(Properties.Resources.Cash);
-                    Cash.Play();
+                    choiceCLabel.Text = "";                   
+                    cash.Play();
                     Refresh();
                     break;
                 case 24:
@@ -373,6 +390,7 @@ namespace Adventure_game
                     choiceALabel.Text = "Cereal";
                     choiceBLabel.Text = "Milk";
                     choiceCLabel.Text = "";
+                    silence.Play();
                     Refresh();
                     break;
                 case 25:
@@ -389,6 +407,7 @@ namespace Adventure_game
                     choiceALabel.Text = "Watch tv";
                     choiceBLabel.Text = "Go outside";
                     choiceCLabel.Text = "";
+                    silence.Play();
                     Refresh();
                     break;
                 case 27:
@@ -405,6 +424,7 @@ namespace Adventure_game
                     choiceALabel.Text = "Eat them";
                     choiceBLabel.Text = "Throw them out";
                     choiceCLabel.Text = "";
+                    silence.Play();
                     Refresh();
                     break;
                 case 29:
@@ -421,6 +441,7 @@ namespace Adventure_game
                     choiceALabel.Text = "Go to the grocery store";
                     choiceBLabel.Text = "Forget about it";
                     choiceCLabel.Text = "";
+                    silence.Play();
                     Refresh();
                     break;
                 case 31:
@@ -428,6 +449,7 @@ namespace Adventure_game
                     choiceALabel.Text = "Go outside";
                     choiceBLabel.Text = "Watch tv";
                     choiceCLabel.Text = "";
+                    silence.Play();
                     Refresh();
                     break;
                 case 32:
@@ -435,8 +457,7 @@ namespace Adventure_game
                     choiceALabel.Text = "Run away";
                     choiceBLabel.Text = "Stand still";
                     choiceCLabel.Text = "";
-                    SoundPlayer Door = new SoundPlayer(Properties.Resources.Door);
-                    Door.Play();
+                    door.Play();
                     Refresh();
                     break;
                 case 33:
@@ -444,6 +465,7 @@ namespace Adventure_game
                     choiceALabel.Text = "Tell the truth";
                     choiceBLabel.Text = "Lie";
                     choiceCLabel.Text = "";
+                    silence.Play();
                     Refresh();
                     break;
                 case 34:
@@ -478,6 +500,8 @@ namespace Adventure_game
                     choiceALabel.Text = "Continue";
                     choiceBLabel.Text = "";
                     choiceCLabel.Text = "";
+                    SoundPlayer gavel = new SoundPlayer(Properties.Resources.Gavel);
+                    gavel.Play();
                     Refresh();
                     break;
                 case 38:
@@ -494,13 +518,15 @@ namespace Adventure_game
                     choiceALabel.Text = "Continue";
                     choiceBLabel.Text = "";
                     choiceCLabel.Text = "";
+                    death.Play();
                     Refresh();
                     break;
                 case 40:
-                    textLabel.Text = "You turn on your favorite show, but part way through you feel a sharp pain in your stomach. You collapse to the floor and everything goes dark. You have starved to death. Game over.";
+                    textLabel.Text = "You turn on your favorite show, but part way through you feel a sharp pain in your stomach. You collapse to the floor and everything goes dark. You have starved to death.  Game over.";
                     choiceALabel.Text = "Continue";
                     choiceBLabel.Text = "";
                     choiceCLabel.Text = "";
+                    death.Play();
                     Refresh();
                     break;
                 case 41:
@@ -508,6 +534,7 @@ namespace Adventure_game
                     choiceALabel.Text = "Yes";
                     choiceBLabel.Text = "No";
                     choiceCLabel.Text = "";
+                    silence.Play();
                     Refresh();
                     break;
 

@@ -122,7 +122,7 @@
         AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19v
         cmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhw
         b3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgB
-        AQEBCQIAAAAAAAAAAAAAAChiBQAoYgUAAAEAAQoPAgAAAChiBQACUklGRiBiBQBXQVZFZm10IBIAAAAB
+        AQEBCQIAAAAAAAAAKGIFAChiBQAoYgUAAAEAAQoPAgAAAChiBQACUklGRiBiBQBXQVZFZm10IBIAAAAB
         AAEARKwAAIhYAQACABAAAABkYXRh+mEFAAAAPwDi/9//4v/Z/9n/xP8DAFEAYwAAAAkA6//Q/+j/DAAk
         AO7/9//3/xgADACs/8f/Xf0Q9ibvW+3f8ED5cf6tAdIGSgrKDikQOhGgDqIG5P3E+dj9WwKUAjD9gvyx
         AwMMlg+gC0AIrgZGBcMAQ/xAAg4QrxrOGQ8MFPv08Nzq1OyY723wZ/Cs8MX4PwPYCcgE7/vg+DD9bfyV
@@ -6017,7 +6017,7 @@
         AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19v
         cmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhw
         b3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgB
-        AQEBCQIAAAAAAAAAAAAAAGg/CABoPwgAAAEAAQoPAgAAAGg/CAACUklGRmA/CABXQVZFSlVOSxwAAAAA
+        AQEBCQIAAAAAAAAAaD8IAGg/CABoPwgAAAEAAQoPAgAAAGg/CAACUklGRmA/CABXQVZFSlVOSxwAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARmFrZQIAAAAAAGZtdCASAAAAAwACAIC7AAAA3AUACAAg
         AAAAZGF0YTg3CACWT8w3zNFDOHA2PTdfHXU3OhhjN2uAgzgJ2hc4l4ovNyFwobdvf0c2nkMXNs+A/7ee
         a3I4Ln+xN5OOJDcreGk4iD6ItzokmzdBZkc4M7QjODTHPTgd9os3iDwut6svVTid2x22PZdCOIqdpTcH
@@ -15037,7 +15037,7 @@
         AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19v
         cmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhw
         b3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgB
-        AQEBCQIAAAAAAAAAAAAAAPbwBgD28AYAAAEAAQoPAgAAAPbwBgACUklGRu7wBgBXQVZFZm10IBAAAAAB
+        AQEBCQIAAAAAAAAA9vAGAPbwBgD28AYAAAEAAQoPAgAAAPbwBgACUklGRu7wBgBXQVZFZm10IBAAAAAB
         AAIAgLsAAABlBAAGABgAZGF0YXDaBgDlkf9hdf/xi//kbf9Njv/bcP95iv8LbP95j/9Vcv9Giv/Ka//x
         jv+qcf/Hif8ra/9Nj/8dcv9yif/Aav9ci/8obf9bh/8eaP87hP8vZP/wiv+fbP+jjP/Ebv9Ri/8abf+X
         jP+2bv+vif8Ma//Uiv99bP+Iif/bav/diP8Dav/Tg/+rY/8lf//HXf/Yg/+xY/94eP9hVf+LgP+LX/+J
@@ -22838,12 +22838,15 @@
   <data name="Fire" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fire.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="Gavel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gavel.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="Hurray" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19v
         cmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhw
         b3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgB
-        AQEBCQIAAAAAAAAAAAAAAKDPAQCgzwEAAAEAAQoPAgAAAKDPAQACUklGRpjPAQBXQVZFZm10IBAAAAAB
+        AQEBCQIAAAAAAAAAoM8BAKDPAQCgzwEAAAEAAQoPAgAAAKDPAQACUklGRpjPAQBXQVZFZm10IBAAAAAB
         AAEAIlYAAESsAAACABAAZmFjdAQAAAC05wAAZGF0YWjPAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -24832,7 +24835,7 @@
         AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19v
         cmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhw
         b3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgB
-        AQEBCQIAAAAAAAAAAAAAACx8AQAsfAEAAAEAAQoPAgAAACx8AQACUklGRiR8AQBXQVZFZm10IBAAAAAB
+        AQEBCQIAAAAAAAAALHwBACx8AQAsfAEAAAEAAQoPAgAAACx8AQACUklGRiR8AQBXQVZFZm10IBAAAAAB
         AAEARKwAAIhYAQACABAAZGF0YQB8AQAX/DT7N/y8+5/79Pu4+6D7uPvB+9n74/vI+7/7v/ut+6/7u/vB
         +737wvu/+8j7svud+677sPuF+3f7ifuD+4H7lPuB+237bvtm+077Yftt+3P7cPuC+4n7nvuW+377e/uM
         +5f7sPu++577h/uX+5f7iPuN+5z7kvuI+6f7tvum+5j7g/t6+3r7jfuS+6H7mvuc+6b7ovuT+6D7uvu2
@@ -26468,7 +26471,7 @@
         AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19v
         cmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhw
         b3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgB
-        AQEBCQIAAAAAAAAAAAAAAOQCDgDkAg4AAAEAAQoPAgAAAOQCDgACUklGRtwCDgBXQVZFZm10IBAAAAAB
+        AQEBCQIAAAAAAAAA5AIOAOQCDgDkAg4AAAEAAQoPAgAAAOQCDgACUklGRtwCDgBXQVZFZm10IBAAAAAB
         AAIARKwAABCxAgAEABAAZGF0YbgCDgAKAP3/BAADAAMA/v8CAAQA/v/8////+//+//7//P////z//f/+
         //b////1/////P/9////9f/4//f/9//3//j/9f/0//r/AAD7//n//P/4//z/+P/3//j/9f/5//X/AAD0
         /wAA9P/6//X/+P/2//P/9f/5//z//f/4//D/+P/2//n/9f/5//X/BgD8//3//v/9//7//P/+//z////9
@@ -41775,11 +41778,20 @@
         /wAAAgD9////+//+//7//P/+/wQACAAFAAcAAAAAAAcA//8OAAcABAAJAAs=
 </value>
   </data>
+  <data name="Silence" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Silence.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Store" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Store.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="Taze" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Taze.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Thud" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Thud.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Toaster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toaster.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Vomit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Vomit.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -41789,7 +41801,7 @@
         AAEAAAD/////AQAAAAAAAAAEAQAAABZTeXN0ZW0uSU8uTWVtb3J5U3RyZWFtCgAAAAdfYnVmZmVyB19v
         cmlnaW4JX3Bvc2l0aW9uB19sZW5ndGgJX2NhcGFjaXR5C19leHBhbmRhYmxlCV93cml0YWJsZQpfZXhw
         b3NhYmxlB19pc09wZW4dTWFyc2hhbEJ5UmVmT2JqZWN0K19faWRlbnRpdHkHAAAAAAAAAAACAggICAgB
-        AQEBCQIAAAAAAAAAAAAAAJh9AQCYfQEAAAEAAQoPAgAAAJh9AQACUklGRpB9AQBXQVZFZm10IBAAAAAB
+        AQEBCQIAAAAAAAAAmH0BAJh9AQCYfQEAAAEAAQoPAgAAAJh9AQACUklGRpB9AQBXQVZFZm10IBAAAAAB
         AAIARKwAABCxAgAEABAAZGF0YWx9AQDg/9//1f/Y/9D/y//U/9r/2v/V/+D/4//m/+X/4f/h/+//7//0
         //T/9//4//7/+/8BAAUACgAHAAwADQANAA0ACwALAAYABQAHAAkACQAGAAcACgAOAAsADgAQABoAGQAh
         ACIAMwAxAD0AQABOAEkAVwBcAGIAXwBbAF0AVwBWAEcARwA+AD4ANQA2ADQAMwAtAC0AQwBEAEMAQgBM

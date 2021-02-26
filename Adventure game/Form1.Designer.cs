@@ -44,12 +44,11 @@ namespace Adventure_game
             this.textLabel.ForeColor = System.Drawing.Color.White;
             this.textLabel.Location = new System.Drawing.Point(-2, 0);
             this.textLabel.Name = "textLabel";
-            this.textLabel.Size = new System.Drawing.Size(802, 113);
+            this.textLabel.Size = new System.Drawing.Size(806, 132);
             this.textLabel.TabIndex = 0;
             this.textLabel.Text = "Welcome to your life. You get to choose how to live it, but remember your choices" +
     " will have consequences.";
             this.textLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-           
             // 
             // choiceALabel
             // 

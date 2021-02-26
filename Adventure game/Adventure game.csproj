@@ -137,5 +137,17 @@
   <ItemGroup>
     <None Include="Resources\Taze.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gavel.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Store.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Silence.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Toaster.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

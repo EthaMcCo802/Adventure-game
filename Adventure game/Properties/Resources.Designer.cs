@@ -136,6 +136,15 @@ namespace Adventure_game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Gavel {
+            get {
+                return ResourceManager.GetStream("Gavel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream Hurray {
             get {
                 return ResourceManager.GetStream("Hurray", resourceCulture);
@@ -190,6 +199,24 @@ namespace Adventure_game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Silence {
+            get {
+                return ResourceManager.GetStream("Silence", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Store {
+            get {
+                return ResourceManager.GetStream("Store", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream Taze {
             get {
                 return ResourceManager.GetStream("Taze", resourceCulture);
@@ -202,6 +229,15 @@ namespace Adventure_game.Properties {
         internal static System.IO.UnmanagedMemoryStream Thud {
             get {
                 return ResourceManager.GetStream("Thud", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Toaster {
+            get {
+                return ResourceManager.GetStream("Toaster", resourceCulture);
             }
         }
         
