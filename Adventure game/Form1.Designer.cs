@@ -46,9 +46,10 @@ namespace Adventure_game
             this.textLabel.Name = "textLabel";
             this.textLabel.Size = new System.Drawing.Size(802, 113);
             this.textLabel.TabIndex = 0;
-            this.textLabel.Text = "You wake up to the sound of your alarm, you roll over and check the time, it\'s 7:" +
-    "30 in the morning.";
+            this.textLabel.Text = "Welcome to your life. You get to choose how to live it, but remember your choices" +
+    " will have consequences.";
             this.textLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+           
             // 
             // choiceALabel
             // 
@@ -58,7 +59,7 @@ namespace Adventure_game
             this.choiceALabel.Name = "choiceALabel";
             this.choiceALabel.Size = new System.Drawing.Size(549, 27);
             this.choiceALabel.TabIndex = 1;
-            this.choiceALabel.Text = "Get out of bed";
+            this.choiceALabel.Text = "Continue";
             // 
             // buttonLabel
             // 
@@ -92,7 +93,6 @@ namespace Adventure_game
             this.choiceBLabel.Name = "choiceBLabel";
             this.choiceBLabel.Size = new System.Drawing.Size(549, 27);
             this.choiceBLabel.TabIndex = 3;
-            this.choiceBLabel.Text = "Go back to sleep";
             // 
             // button3Label
             // 
@@ -120,6 +120,7 @@ namespace Adventure_game
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(801, 684);
             this.Controls.Add(this.button3Label);
             this.Controls.Add(this.choiceCLabel);
@@ -129,7 +130,7 @@ namespace Adventure_game
             this.Controls.Add(this.choiceALabel);
             this.Controls.Add(this.textLabel);
             this.Name = "Form1";
-            this.Text = "The Crazy Day";
+            this.Text = "Life 2.0";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.ResumeLayout(false);
 

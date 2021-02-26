@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -77,7 +78,64 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="Properties\App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alarm.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zipper.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Door.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sad.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cry.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Knock.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hurray.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cash.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Running.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Police.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jail.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Choking.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fire.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Death.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vomit.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thud.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cheer.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Taze.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
