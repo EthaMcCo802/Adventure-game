@@ -31,12 +31,12 @@ namespace Adventure_game
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.textLabel = new System.Windows.Forms.Label();
-            this.choiceALabel = new System.Windows.Forms.Label();
-            this.buttonLabel = new System.Windows.Forms.Label();
-            this.button2Label = new System.Windows.Forms.Label();
             this.choiceBLabel = new System.Windows.Forms.Label();
-            this.button3Label = new System.Windows.Forms.Label();
-            this.choiceCLabel = new System.Windows.Forms.Label();
+            this.bChoice = new System.Windows.Forms.Label();
+            this.mChoice = new System.Windows.Forms.Label();
+            this.choiceMLabel = new System.Windows.Forms.Label();
+            this.nChoice = new System.Windows.Forms.Label();
+            this.choiceNLabel = new System.Windows.Forms.Label();
             this.gameOverLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -53,72 +53,72 @@ namespace Adventure_game
     " will have consequences.";
             this.textLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // choiceALabel
-            // 
-            this.choiceALabel.BackColor = System.Drawing.Color.Blue;
-            this.choiceALabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.choiceALabel.ForeColor = System.Drawing.Color.Black;
-            this.choiceALabel.Location = new System.Drawing.Point(144, 565);
-            this.choiceALabel.Name = "choiceALabel";
-            this.choiceALabel.Size = new System.Drawing.Size(549, 27);
-            this.choiceALabel.TabIndex = 1;
-            this.choiceALabel.Text = "Continue";
-            // 
-            // buttonLabel
-            // 
-            this.buttonLabel.BackColor = System.Drawing.Color.Blue;
-            this.buttonLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonLabel.ForeColor = System.Drawing.Color.Black;
-            this.buttonLabel.Location = new System.Drawing.Point(81, 565);
-            this.buttonLabel.Name = "buttonLabel";
-            this.buttonLabel.Size = new System.Drawing.Size(57, 27);
-            this.buttonLabel.TabIndex = 2;
-            this.buttonLabel.Text = "B";
-            this.buttonLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // button2Label
-            // 
-            this.button2Label.BackColor = System.Drawing.Color.Red;
-            this.button2Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2Label.ForeColor = System.Drawing.Color.Black;
-            this.button2Label.Location = new System.Drawing.Point(81, 609);
-            this.button2Label.Name = "button2Label";
-            this.button2Label.Size = new System.Drawing.Size(57, 27);
-            this.button2Label.TabIndex = 4;
-            this.button2Label.Text = "M";
-            this.button2Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // choiceBLabel
             // 
-            this.choiceBLabel.BackColor = System.Drawing.Color.Red;
+            this.choiceBLabel.BackColor = System.Drawing.Color.Blue;
             this.choiceBLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.choiceBLabel.ForeColor = System.Drawing.Color.Black;
-            this.choiceBLabel.Location = new System.Drawing.Point(144, 609);
+            this.choiceBLabel.Location = new System.Drawing.Point(144, 565);
             this.choiceBLabel.Name = "choiceBLabel";
             this.choiceBLabel.Size = new System.Drawing.Size(549, 27);
-            this.choiceBLabel.TabIndex = 3;
+            this.choiceBLabel.TabIndex = 1;
+            this.choiceBLabel.Text = "Continue";
             // 
-            // button3Label
+            // bChoice
             // 
-            this.button3Label.BackColor = System.Drawing.Color.Yellow;
-            this.button3Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3Label.ForeColor = System.Drawing.Color.Black;
-            this.button3Label.Location = new System.Drawing.Point(81, 653);
-            this.button3Label.Name = "button3Label";
-            this.button3Label.Size = new System.Drawing.Size(57, 27);
-            this.button3Label.TabIndex = 6;
-            this.button3Label.Text = "N";
-            this.button3Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bChoice.BackColor = System.Drawing.Color.Blue;
+            this.bChoice.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bChoice.ForeColor = System.Drawing.Color.Black;
+            this.bChoice.Location = new System.Drawing.Point(81, 565);
+            this.bChoice.Name = "bChoice";
+            this.bChoice.Size = new System.Drawing.Size(57, 27);
+            this.bChoice.TabIndex = 2;
+            this.bChoice.Text = "B";
+            this.bChoice.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // choiceCLabel
+            // mChoice
             // 
-            this.choiceCLabel.BackColor = System.Drawing.Color.Yellow;
-            this.choiceCLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.choiceCLabel.ForeColor = System.Drawing.Color.Black;
-            this.choiceCLabel.Location = new System.Drawing.Point(144, 653);
-            this.choiceCLabel.Name = "choiceCLabel";
-            this.choiceCLabel.Size = new System.Drawing.Size(549, 27);
-            this.choiceCLabel.TabIndex = 5;
+            this.mChoice.BackColor = System.Drawing.Color.Red;
+            this.mChoice.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mChoice.ForeColor = System.Drawing.Color.Black;
+            this.mChoice.Location = new System.Drawing.Point(81, 609);
+            this.mChoice.Name = "mChoice";
+            this.mChoice.Size = new System.Drawing.Size(57, 27);
+            this.mChoice.TabIndex = 4;
+            this.mChoice.Text = "M";
+            this.mChoice.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // choiceMLabel
+            // 
+            this.choiceMLabel.BackColor = System.Drawing.Color.Red;
+            this.choiceMLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.choiceMLabel.ForeColor = System.Drawing.Color.Black;
+            this.choiceMLabel.Location = new System.Drawing.Point(144, 609);
+            this.choiceMLabel.Name = "choiceMLabel";
+            this.choiceMLabel.Size = new System.Drawing.Size(549, 27);
+            this.choiceMLabel.TabIndex = 3;
+            // 
+            // nChoice
+            // 
+            this.nChoice.BackColor = System.Drawing.Color.Yellow;
+            this.nChoice.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nChoice.ForeColor = System.Drawing.Color.Black;
+            this.nChoice.Location = new System.Drawing.Point(81, 653);
+            this.nChoice.Name = "nChoice";
+            this.nChoice.Size = new System.Drawing.Size(57, 27);
+            this.nChoice.TabIndex = 6;
+            this.nChoice.Text = "N";
+            this.nChoice.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // choiceNLabel
+            // 
+            this.choiceNLabel.BackColor = System.Drawing.Color.Yellow;
+            this.choiceNLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.choiceNLabel.ForeColor = System.Drawing.Color.Black;
+            this.choiceNLabel.Location = new System.Drawing.Point(144, 653);
+            this.choiceNLabel.Name = "choiceNLabel";
+            this.choiceNLabel.Size = new System.Drawing.Size(549, 27);
+            this.choiceNLabel.TabIndex = 5;
             // 
             // gameOverLabel
             // 
@@ -139,12 +139,12 @@ namespace Adventure_game
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(801, 684);
             this.Controls.Add(this.gameOverLabel);
-            this.Controls.Add(this.button3Label);
-            this.Controls.Add(this.choiceCLabel);
-            this.Controls.Add(this.button2Label);
+            this.Controls.Add(this.nChoice);
+            this.Controls.Add(this.choiceNLabel);
+            this.Controls.Add(this.mChoice);
+            this.Controls.Add(this.choiceMLabel);
+            this.Controls.Add(this.bChoice);
             this.Controls.Add(this.choiceBLabel);
-            this.Controls.Add(this.buttonLabel);
-            this.Controls.Add(this.choiceALabel);
             this.Controls.Add(this.textLabel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
@@ -157,12 +157,12 @@ namespace Adventure_game
         #endregion
 
         private System.Windows.Forms.Label textLabel;
-        private System.Windows.Forms.Label choiceALabel;
-        private System.Windows.Forms.Label buttonLabel;
-        private System.Windows.Forms.Label button2Label;
         private System.Windows.Forms.Label choiceBLabel;
-        private System.Windows.Forms.Label button3Label;
-        private System.Windows.Forms.Label choiceCLabel;
+        private System.Windows.Forms.Label bChoice;
+        private System.Windows.Forms.Label mChoice;
+        private System.Windows.Forms.Label choiceMLabel;
+        private System.Windows.Forms.Label nChoice;
+        private System.Windows.Forms.Label choiceNLabel;
         private System.Windows.Forms.Label gameOverLabel;
     }
 }
